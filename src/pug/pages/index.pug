@@ -1,0 +1,9 @@
+extends ../layouts/default.pug
+
+block content
+  main.page
+    h1 Main page
+    include ../blocks/button/button.pug
+
+    svg.icon
+      use(xlink:href="#icon-arrow")
